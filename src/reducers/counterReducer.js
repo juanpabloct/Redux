@@ -8,10 +8,7 @@ const reducer =(valor=initialState, action)=>{
     console.log();
     console.log(valor);
     if (action.type==='aumentar') {
-        if (valor.value<10) {
-        
             return {...valor, value:action.value+valor.value}
-        }
     }
     else if (action.type ==='disminuir') {
         return {...valor, value:valor.value-action.value}
