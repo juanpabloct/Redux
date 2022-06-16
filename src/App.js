@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Buttons from './components/aumentador';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
           Learn
         </a>
       </header>
+      <Buttons/>
     </div>
   );
 }
